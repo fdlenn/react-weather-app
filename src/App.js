@@ -3,16 +3,18 @@ import Weather from "./Weather.js";
 import "./App.css";
 
 export default function App() {
-  return <div className="App">
+  return (
+  <div className="App">
     <div className="Container">
-    <h1>Weather App</h1>
-    <Weather defaultCity="New York" />
-    <footer>
-      This Weather App was coded by Laura Fenn and is{" "}
-    <a href="https://github.com/fdlenn/react-weather-app.git" target="_blank">open-sourced</a>.
-    </footer>
+      <h1>Weather App</h1>
+       <Weather defaultCity="New York" />
+          <footer>
+          This Weather App was coded by Laura Fenn and is{" "}
+          <a href="https://github.com/fdlenn/react-weather-app.git" target="_blank">open-sourced</a> on GitHub.
+          </footer>
     </div>
-    </div>
+  </div>
+    );
 }
 
 
