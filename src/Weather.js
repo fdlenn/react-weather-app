@@ -42,7 +42,7 @@ if (weatherData.ready) {
     <div className="Weather">
         <form onSubmit={handleSubmit}>
             <div className="row">
-                <div className="col-9">
+                <div className="col-9 mt-2">
                     <input 
                     type="search" 
                     placeholder="Search for a city..." 
@@ -51,11 +51,12 @@ if (weatherData.ready) {
                     onChange={handleCityChange} 
                     />
                 </div>
-                  <div className="col-3">
+                  <div className="col-3 mt-2">
                     <input 
                     type="submit" 
                     value="Search" 
                     className="btn btn-primary w-100"
+                    color="#c86b85"
                     />
                   </div>
             </div>
